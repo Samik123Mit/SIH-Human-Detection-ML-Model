@@ -16,8 +16,8 @@
    - `predictions.ipynb`: Utilize this notebook for making predictions and running the trained model on new images or videos.
 
 5. **Model Checkpoints:**
-   - `best.pt`: This file contains the weights of the YOLOv8 model at the epoch where it achieved the best performance during training.
-   - `last.pt`: Save time and continue training or fine-tuning the model from the point it left off using this file, which contains the weights from the last epoch.
+   - `Great.pt`: This file contains the weights of the YOLOv8 model at the epoch where it achieved the best performance during training.
+   - `End.pt`: Save time and continue training or fine-tuning the model from the point it left off using this file, which contains the weights from the last epoch.
 
 6. **Roboflow Integration:** Easily create custom datasets for training by leveraging Roboflow. Use their platform to annotate images, manage datasets, and export the data in YOLOv8-compatible format, streamlining the process of preparing your own data for training.
 
@@ -118,7 +118,7 @@
 
 Follow these steps to train the YOLOv8 model on your custom human detection dataset. Adjust parameters and paths according to your specific requirements.
 
-9. **Documentation for Beginners:** The documentation provides clear and concise instructions on setting up the environment, running the model, and understanding the basics of YOLOv8 for human detection. Perfect for those taking their first steps into the world of computer vision.
+9. **Documentation :** The documentation provides clear and concise instructions on setting up the environment, running the model, and understanding the basics of YOLOv8 for human detection. Perfect for those taking their first steps into the world of computer vision.
 
 ## Getting Started:
 
@@ -127,8 +127,6 @@ Follow these steps to train the YOLOv8 model on your custom human detection data
 3. Explore the example code to understand how to use the pre-trained YOLOv8 model for human detection and leverage the provided notebooks for training and predictions. Additionally, use `best.pt` and `last.pt` for different scenarios, such as starting from the best-performing weights or continuing training.
 4. Utilize Roboflow to create custom datasets, annotate images, and seamlessly integrate your own data into the YOLOv8 model training process.
 
-## Contributions:
 
-This repository is open to contributions from the beginner community. If you have ideas to improve simplicity, clarity, or add new features suitable for beginners, feel free to submit your contributions through issues or pull requests.
 
 Embark on your journey into human detection with YOLOv8 using this beginner-friendly repository. Start detecting humans in no time and gain hands-on experience with object detection!
